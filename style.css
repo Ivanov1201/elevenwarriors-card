@@ -1,0 +1,95 @@
+body {
+    background-color: #eee;
+}
+
+.card {
+    width: 420px;
+    padding: 20px 16px;
+    background-color: #fff;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, .2);
+    font-family: Heebo;
+    text-transform: uppercase;
+}
+
+.card-title {
+    width: 100%;
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.card-title-team {
+    color: #aaa;
+}
+
+.card-logo {
+    float: left;
+    margin-bottom: -20px;
+}
+
+.card-logo img {
+    width: 200px;
+}
+
+.card-content {
+    text-align: right;
+    font-size: 16px;
+}
+
+.card-content-score {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.card-content-detail {
+    font-weight: 700;
+    margin-bottom: 8px;
+    line-height: 24px;
+}
+
+.card-content-detail-roster,
+.card-content-detail-schedule {
+    color: #b00;
+    text-decoration: none;
+}
+
+.card-content-date {
+    font-weight: 400;
+    font-family: Roboto;
+    margin-bottom: 4px;
+    line-height: 19px;
+}
+
+.card-content-stadium {
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.card-content-location {
+    font-weight: 400;
+    font-family: Roboto;
+    color: #aaa;
+    margin-bottom: 8px;
+    line-height: 19px;
+}
+
+.card-content-other {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    line-height: 16px;
+}
+
+.card-content-other .tv {
+    width: 25px;
+    margin-right: 5px;
+}
+
+.card-content-other .money {
+    width: 28px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
