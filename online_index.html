@@ -1,15 +1,8 @@
 <html>
 
 <head>
-	<link
-		href='https://fonts.googleapis.com/css?family=Heebo:700|Roboto:400,700,400italic|Roboto+Condensed:300italic,400italic,400,300,700'
-		rel='stylesheet' type='text/css'>
 	<style type="text/css">
-		body {
-			background-color: #eee;
-		}
-
-		.card {
+		.opponent-card {
 			width: 420px;
 			padding: 20px 16px;
 			background-color: #fff;
@@ -20,7 +13,7 @@
 			margin: 0 0 1em 2em;
 		}
 
-		.card-title {
+		.opponent-card-title {
 			width: 100%;
 			color: #000;
 			text-align: center;
@@ -29,55 +22,55 @@
 			line-height: 30px;
 		}
 
-		.card-title-team {
+		.opponent-card-title-team {
 			color: #aaa;
 		}
 
-		.card-logo {
+		.opponent-card-logo {
 			float: left;
 			margin-bottom: -20px;
 		}
 
-		.card-logo img {
+		.opponent-card-logo img {
 			width: 200px;
 		}
 
-		.card-content {
+		.opponent-card-content {
 			text-align: right;
 			font-size: 16px;
 		}
 
-		.card-content-score {
+		.opponent-card-content-record {
 			font-size: 30px;
 			font-weight: 700;
 			line-height: 44px;
 		}
 
-		.card-content-detail {
+		.opponent-card-content-detail {
 			font-weight: 700;
 			margin-bottom: 8px;
 			line-height: 24px;
 		}
 
-		.card-content-detail-roster,
-		.card-content-detail-schedule {
+		.opponent-card-content-detail-roster,
+		.opponent-card-content-detail-schedule {
 			color: #b00;
 			text-decoration: none;
 		}
 
-		.card-content-date {
+		.opponent-card-content-date {
 			font-weight: 400;
 			font-family: Roboto;
 			margin-bottom: 4px;
 			line-height: 19px;
 		}
 
-		.card-content-stadium {
+		.opponent-card-content-stadium {
 			font-weight: 700;
 			line-height: 24px;
 		}
 
-		.card-content-location {
+		.opponent-card-content-location {
 			font-weight: 400;
 			font-family: Roboto;
 			color: #aaa;
@@ -85,80 +78,84 @@
 			line-height: 19px;
 		}
 
-		.card-content-other {
+		.opponent-card-content-other {
 			display: flex;
 			justify-content: flex-end;
 			align-items: flex-end;
 			line-height: 16px;
 		}
 
-		.card-content-other .tv {
+		.opponent-card-content-other .tv {
 			width: 25px;
 			margin-right: 5px;
 		}
 
-		.card-content-other .money {
+		.opponent-card-content-other .money {
 			width: 28px;
 			margin-left: 20px;
 			margin-right: 5px;
 		}
 
 		@media screen and (max-width: 450px) {
-			.card {
+			.opponent-card {
 				width: auto;
 				max-width: 368px;
 				float: none;
 				margin: 1.5em auto 2em auto;
 			}
-			.card-title {
+
+			.opponent-card-title {
 				margin-top: 8px;
 				margin-bottom: -12px;
 			}
-			.card-logo {
+
+			.opponent-card-logo {
 				float: none;
 				text-align: center;
 			}
-			.card-content {
+
+			.opponent-card-content {
 				text-align: center;
 			}
-			.card-content-other {
+
+			.opponent-card-content-other {
 				justify-content: center;
 			}
 		}
-
+		
 	</style>
 </head>
 
 <body>
-	<div class="card">
-		<div class="card-title">
-			<div class="card-title-university">WESTERN KENTUCKY</div>
-			<div class="card-title-team">HILLTOPPERS</div>
+	<div class="opponent-card">
+		<div class="opponent-card-title">
+			<div class="opponent-card-title-university">WESTERN KENTUCKY</div>
+			<div class="opponent-card-title-team">HILLTOPPERS</div>
 		</div>
-		<div class="card-logo">
+		<div class="opponent-card-logo">
 			<img src="https://www.elevenwarriors.com/sites/default/files/c/logos/ncaa/team/200/western-kentucky.png">
 		</div>
-		<div class="card-content">
-			<div class="card-content-score">
+		<div class="opponent-card-content">
+			<div class="opponent-card-content-record">
 				2 - 0
 			</div>
-			<div class="card-content-detail">
-				<a class="card-content-detail-roster" href="https://wkusports.com/sports/football/roster"
+			<div class="opponent-card-content-detail">
+				<a class="opponent-card-content-detail-roster" href="https://wkusports.com/sports/football/roster"
 					target="_blank">roster</a>
 				&nbsp;|&nbsp;
-				<a class="card-content-detail-schedule" href="https://wkusports.com/sports/football/schedule"
+				<a class="opponent-card-content-detail-schedule" href="https://wkusports.com/sports/football/schedule"
 					target="_blank">schedule</a>
 			</div>
-			<div class="card-content-date">
+			<div class="opponent-card-content-date">
 				SEPT. 16, 2023 - 4 PM ET
 			</div>
-			<div class="card-content-stadium">
+			<div class="opponent-card-content-stadium">
 				OHIO STADIUM
 			</div>
-			<div class="card-content-location">
+			<div class="opponent-card-content-location">
 				Columbus, OHIO
 			</div>
-			<div class="card-content-other">
+			<div class="opponent-card-content-other">
 				<img class="tv" src="https://i.postimg.cc/hPWNwPwc/television.png" alt="tv svg">
 				FOX
 				<img class="money" src="https://i.postimg.cc/v86p3600/money.png" alt="money svg">
